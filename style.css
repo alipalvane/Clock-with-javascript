@@ -1,0 +1,19 @@
+@font-face{
+    font-family: open-sans;
+    src: url(./fonts/OpenSans-Regular.ttf);
+}
+body{
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.clock{
+    font: 80px open-sans;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    color: #15161b;         
+    padding: 5px 30px;
+}
